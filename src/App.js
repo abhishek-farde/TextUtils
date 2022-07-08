@@ -46,6 +46,13 @@ function App() {
               setAlert={setAlertHelper}
             />
           </Route>
+          <Route exact path="/TextUtils">
+            <Textform
+              heading="Enter the text to be analyzed below:"
+              mode={mode}
+              setAlert={setAlertHelper}
+            />
+          </Route>
         </Switch>
         {/* <Test /> */}
       </Router>
